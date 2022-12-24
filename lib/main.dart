@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     LocaleController controller = Get.put(LocaleController());
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'E-Commerce',
       debugShowCheckedModeBanner: false,
       translations: MyTranslation(),
       locale: controller.language,
