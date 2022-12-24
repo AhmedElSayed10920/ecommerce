@@ -49,7 +49,11 @@ class MyTranslation extends Translations {
           "43":"الرجاء إدخال الرمز الخاص بك لإعادة تعيين كلمة المرور الخاصة بك",
           "44":"تم تغيير كلمة المرور بنجاح",
           "45":"تم الاشتراك بنجاح.",
-          "46":"تخطى"
+          "46":"تخطى",
+          "47":"هل تريد الخروج من التطبيق؟",
+          "48":"تنبيه",
+          "49":"إلغاء"
+
          
         },
         "en": {
@@ -99,6 +103,9 @@ class MyTranslation extends Translations {
           "44":"Password Changed Sucessfully",
           "45":"Sign up Sucess.",
           "46":"Skip",
+          "47":"Do you want to exit the app?",
+          "48":"Alert!",
+          "49":"Cancel"
           
 
         }

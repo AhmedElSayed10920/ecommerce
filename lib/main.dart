@@ -2,7 +2,6 @@ import 'package:ecommerce/Core/Localization/changelocal.dart';
 import 'package:ecommerce/Core/Localization/translation.dart';
 import 'package:ecommerce/Core/Services/services.dart';
 import 'package:ecommerce/Routes.dart';
-import 'package:ecommerce/View/Screens/language.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -23,8 +22,7 @@ class MyApp extends StatelessWidget {
       translations: MyTranslation(),
       locale: controller.language,
       theme: controller.appTheme,
-      home: const Language(),
-      routes: routes,
+      getPages: routes,
     );
   }
 }

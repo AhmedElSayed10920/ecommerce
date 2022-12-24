@@ -4,18 +4,18 @@ import 'package:get/get.dart';
 
 Future<bool> appExitAlert() {
   Get.defaultDialog(
-    title: "تنبيه",
-    middleText: "هل تريد الخروج من التطبيق؟",
+    title: "48".tr,
+    middleText: "47".tr,
     confirm: ElevatedButton(
         onPressed: () {
           exit(0);
         },
-        child: Text("Confirm")),
+        child:Text("40".tr)),
     cancel: ElevatedButton(
         onPressed: () {
           Get.back();
         },
-        child: Text("Cancel")),
+        child:Text("49".tr)),
   );
   return Future.value(true);
 }
